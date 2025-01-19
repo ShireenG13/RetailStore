@@ -9,7 +9,7 @@ public class ConnectionDAO {
     protected ResultSet rs = null;
 
     public static Connection getConnection(){
-        final String dburl = "jdbc:mysql://localhost:3306/retailstore";
+        final String dburl = "";
         final String username = "root";
         final String password = "root";
         try{
